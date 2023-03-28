@@ -1,0 +1,224 @@
+/*
+Jason Sebastian Tjoang (00000055443)
+*/
+
+h1{
+  font-family: 'Courier', monospace;
+  font-weight: bold;
+}
+
+progress{
+  width: 100%;
+  /* height: 100%; */
+  border-radius: 0;
+}
+
+body{
+  background-image: url("asset/start.jpg");
+}
+
+#headsem, #gameday, #gameclock, #gamename{
+  font-family: 'Courier', monospace;
+  font-weight: bold !important;
+}
+
+#gameover{
+  font-family: 'Courier', monospace !important;
+  font-weight: bold underline !important;
+}
+
+.upperarea{
+  border: 1px solid;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-color:black;
+}
+
+img.avatar{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.buttonavatar{
+  color: black;
+  padding: 0.5em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px 1px;
+  border-radius: 50%;
+}
+
+.statsbar{
+  border: solid 1px black;
+  background-color: #FFDFD3;
+}
+
+.progressbardiv{
+  height: 100%;
+}
+
+.statsbarimg1{
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.statsbarimg{
+  margin-right: 10px;
+}
+
+.statsbarimg img{
+  height: 15px;
+  width: 20px;
+}
+
+.statsbarimg1 img{
+  height: 15px;
+  width: 20px;
+}
+
+.progress-bar{
+  border: solid 1px black;
+}
+
+.interactl{
+  margin-right: 1em;
+  min-width: 80px;
+  max-width: 80px;
+}
+.interactr{
+  margin-left: 1em;
+  min-width: 80px;
+  max-width: 80px;
+}
+
+#avatardiv {
+  background-size: 110% !important;
+  margin-left: 400px;
+  margin-top: 100px;
+}
+
+#avatardiv img{
+  width:500px;
+  height:300px;
+}
+
+#hunger::-webkit-progress-value{
+  background-color: #dc3545;
+}
+
+#sleep::-webkit-progress-value{
+  background-color: #0dcaf0;
+}
+
+#play::-webkit-progress-value{
+  background-color: #ffc107;
+}
+
+#study::-webkit-progress-value{
+  background-color: #198754;
+}
+
+#newsArea{
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+}
+
+#newsImg{
+  width: 80px;
+  height: 50px;
+  margin: auto;
+  margin-bottom: 8px;
+  margin-left: 3.4em;
+}
+
+.smartphone {
+  position: relative;
+  width: 216px;
+  height: 384px;
+  border: 16px black solid;
+  border-top-width: 60px;
+  border-bottom-width: 60px;
+  border-radius: 36px;
+  margin-top: 100px;
+}
+
+.smartphone:before {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 5px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 10px;
+}
+
+.smartphone:after {
+  content: '';
+  display: block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 50%;
+  bottom: -65px;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 50%;
+}
+
+.smartphone .content {
+  background-image: url("asset/phoneBg.jpg") !important;
+  width: 100%;
+  height: 100%;
+  background: white;
+  overflow: auto;
+}
+
+#navBars button{
+  width: 100% !important;
+}
+
+button{
+  border-radius: 5px !important;
+  margin-bottom: 3px !important;
+}
+
+button:disabled{
+  cursor: not-allowed;
+  opacity: 0.6;
+  background-color: #cccccc !important;
+  color: #666666;
+}
+
+button:hover {
+  background-color: #3ba1c5; /* Green */
+  color: white;
+}
+
+#newsTitle{
+  margin-left: 4.6em;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#newsArt{
+  text-align: center;
+}
+
+#weatherArt{
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  border-bottom: 1px solid;
+}
+
+
+/*
+Jason Sebastian Tjoang (00000055443)
+*/
