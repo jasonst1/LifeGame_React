@@ -10,4 +10,4 @@ Fitur:
 - Kerja di kafe
 - Beli makanan di supermarket
 
-Link video penjelasan tambahan: https://www.youtube.com/watch?v=qZ0GhDkSeBk
+Link video penjelasan tambahan:
